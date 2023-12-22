@@ -42,13 +42,13 @@ curl localhost:8000/documents/ --data-binary @tests.pdf -H "Content-Disposition:
 ### query state of conversion
 
 ```bash
-curl localhost:8000/documents/<id from previous request>
+curl localhost:8000/documents/<id from upload>
 ```
 
 ### get png
 
 ```bash
-curl localhost:8000/documents/<id from previous request>/<page>
+curl localhost:8000/documents/<id from upload>/<page>
 ```
 
 ## Known limitation
