@@ -1,0 +1,3 @@
+python-magic<1.0.0
+pillow<11.0.0
+PyMuPDF<2.0.0
